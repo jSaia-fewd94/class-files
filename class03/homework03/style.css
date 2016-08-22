@@ -1,0 +1,33 @@
+#outside {
+	background-color: gray;
+	padding: 10px 20px 10px 20px;
+}
+
+#first {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+#second{
+	background: orange;
+	color: blue;
+	padding: 10px;
+	margin: 5px;
+	text-align: center; 
+}
+#third{
+	background: orange;
+	color: green;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+#fourth{
+	background-color: orange;
+	color: yellow;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
