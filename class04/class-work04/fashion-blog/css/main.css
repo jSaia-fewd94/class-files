@@ -1,0 +1,15 @@
+body{
+	font-family: Lato;
+}
+
+h1{
+	color: red;
+	font-weight: 300px;
+	font-style: italic;
+}
+h2, h3{
+	color: gray;
+}
+p{
+	width: 900px;
+}
