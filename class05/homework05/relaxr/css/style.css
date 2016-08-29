@@ -5,7 +5,7 @@
 /* Clear fix hack */
 .clearfix:after {
   content: ".";
-  display: block;
+  display: inline-block;
   clear: both;
   visibility: hidden;
   line-height: 0;
@@ -18,8 +18,11 @@
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px; 
+  overflow: auto;
+  /* note the padding around a right floated image */
 }
+
 
 .alignleft {
   float: left;
@@ -32,9 +35,25 @@
 
 body {
   color: #000;
-  font-size: 55px;
+  font-size: 20px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    h1{ 
+      font-size: 28px;
+      font-color: white; 
+    }
+
+    h2{ 
+      font-size: 20px;
+      font-color: yellow;
+      background-color: navy;
+     }
+  
+
 }
 
 
@@ -44,32 +63,34 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 20px;
+  height:10px;
   margin: auto;
   text-align: center;
 }
-div {}
-  header{ 
-  font-size: 16px;
+
+div{ 
+ header{ 
+  font-size: 12px;
   color: white;
   background-color: navy;
   height: 50px;
   padding: 0 20px 0 20px;
   overflow: hidden; 
+
 }
   
-
-
   main{
-  font-size: 14px;
+  font-size: 10px;
   float: left;
+  box-sizing: 100px;
 }
 
-}
 
 
 footer {
   font-size: 14px;
+
 
 }
 
