@@ -1,0 +1,51 @@
+header{
+	background-color: navy;
+}
+
+h1{
+	color: white;
+}
+
+nav{
+	text-align: right;
+}
+
+nav a{
+	color: yellow;
+}
+
+section{
+	width: 70%;
+	float: left;
+}
+
+aside{
+	width: 30%;
+	float: right;
+}
+
+#signup{
+	background-color: yellow;
+	text-align: center;
+	height: 40px;
+}
+
+button{
+	background-color: navy;
+	color: white;
+}
+
+#categories a{
+	display: block;
+}
+
+#bottom{
+	text-align: center;
+
+}
+
+footer{
+	clear: both;
+	background-color: gray;
+	height: 120px;
+}

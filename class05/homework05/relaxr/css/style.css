@@ -12,6 +12,7 @@
   height: 0;
 }
 
+
 .clear {
   clear: both;
 }
@@ -22,8 +23,6 @@
   overflow: auto;
   /* note the padding around a right floated image */
 }
-
-
 
 
 .alignleft {
@@ -43,15 +42,13 @@ body {
 
 }
 
-nav {
-    h1{ 
+nav a{
+    
       font-size: 28px;
       font-color: white; 
-    }
-
-    h2{ 
+    
       font-size: 20px;
-      font-color: yellow;
+      color: yellow;
       background-color: navy;
      }
   
@@ -68,6 +65,7 @@ nav {
   width: 20px;
   height:10px;
   margin: auto;
+  background-color: navy;
   text-align: center;
 }
 
@@ -81,6 +79,10 @@ div{
   overflow: hidden; 
 
 }
+
+img{
+  float: right;
+}
   
   main{
   font-size: 10px;
@@ -92,6 +94,7 @@ div{
 
 footer {
   font-size: 14px;
+  background-color: gray;
 
 
 }
