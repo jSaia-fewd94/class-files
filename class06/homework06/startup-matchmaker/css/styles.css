@@ -12,29 +12,67 @@ h1{
 	color: yellow;
 	font-family: ;
 	background-color: black;
+
 }
 
 header{
 	border-bottom: solid yellow 4px;
 	background-color: black;
+	
 }
 
 nav{
 	float: right;
+	font-size: 22px;
+	text-decoration: none;	
 }
+
+
 
 nav a{
 	color: white;
 	text-decoration: none;
+	text-align: right;
+
 }
+
 
 h2{
 	background-color: silver;
 	height: 50px;
 	text-align: center;
+	margin-top: 0px;
+	padding-top: 10px;
+	font-style: italic;
+	
+}
+
+main{
+	float: left;
+
+}
+section1{
+	float: right;
+
+
+}
+
+button section1{
+	color: yellow;
+}
+
+section2{
+
 }
 
 div{
 	display: inline-block;
 	width: 30%;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding-bottom: 50px;
+	padding-top: 50px
 }
