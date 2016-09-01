@@ -48,12 +48,20 @@ h2{
 }
 
 main{
-	float: left;
+	background-image: url('../img/coworking.jpg');
+	height: 500px;
+	background-size: cover;
+	margin: 0px;
 
 }
-section1{
-	float: right;
 
+body{
+	margin: 0px;	
+}
+
+section{
+	float: right;
+	margin: 0px;
 
 }
 
@@ -61,7 +69,7 @@ button section1{
 	color: yellow;
 }
 
-section2{
+aside{
 
 }
 
@@ -73,6 +81,5 @@ div{
 footer{
 	background-color: black;
 	color: white;
-	padding-bottom: 50px;
 	padding-top: 50px
 }
