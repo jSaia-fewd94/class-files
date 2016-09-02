@@ -18,13 +18,15 @@ h1{
 header{
 	border-bottom: solid yellow 4px;
 	background-color: black;
+	padding-top: 10px;
 	
 }
 
 nav{
 	float: right;
 	font-size: 22px;
-	text-decoration: none;	
+	text-decoration: none;
+	padding-top: 5px;	
 }
 
 
@@ -33,6 +35,8 @@ nav a{
 	color: white;
 	text-decoration: none;
 	text-align: right;
+	padding-left: 20px;
+	padding-top: 100px;
 
 }
 
@@ -62,11 +66,16 @@ body{
 section{
 	float: right;
 	margin: 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 200px;
+	width: 200px;
+	text-align: center;
+
 
 }
 
-button section1{
-	color: yellow;
+button{
+	background-color: yellow;
 }
 
 aside{
