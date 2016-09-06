@@ -3,7 +3,7 @@
 // font-family: 'Merriweather', serif;
 // font-family: 'Source Sans Pro', sans-serif;*/
 .wrapper{
-	width: 75%;
+	width: 90%;
 
 }
 
@@ -14,6 +14,8 @@ h1{
 	background-color: black;
 
 }
+
+
 
 header{
 	border-bottom: solid yellow 4px;
@@ -48,7 +50,7 @@ h2{
 	margin-top: 0px;
 	padding-top: 10px;
 	font-style: italic;
-	
+	margin-bottom: 0px;
 }
 
 main{
@@ -60,25 +62,32 @@ main{
 }
 
 body{
-	margin: 0px;	
+	margin: 0px;
+	font-family: "Merriweather", serif;
+
 }
 
 section{
 	float: right;
 	margin: 0px;
 	background-color: rgba(255, 255, 255, 0.5);
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 300px;
 	text-align: center;
-
-
+	padding: 50px;
+	margin-top:50px;
 }
 
 button{
 	background-color: yellow;
 }
 
-aside{
+aside button{
+	background-color: gray;
+	height:25px;
+	width: 150px;
+	text-align: center;
+
 
 }
 
@@ -90,5 +99,6 @@ div{
 footer{
 	background-color: black;
 	color: white;
-	padding-top: 50px
+	padding-bottom: 50px;
+	padding-top: 50px;	
 }
