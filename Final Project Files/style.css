@@ -1,0 +1,38 @@
+body{
+	font-family: sans-serif;
+}
+
+header{
+	font-family: sans-serif;
+}
+
+
+h1{
+	
+	float: left;
+	display: inline;
+	font-size: 10px;
+}
+
+ul a{
+	text-align: right;
+	float: right;
+	display: inline;
+	font-size: 8px;
+	
+}
+
+.wrapper{
+	clear: both;
+	font-size: 10px;
+	clear: both;
+	display: block;
+
+}
+
+
+
+footer{
+	text-align: left;
+	float: left;
+}
