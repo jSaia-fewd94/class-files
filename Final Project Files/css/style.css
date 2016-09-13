@@ -1,27 +1,64 @@
 header{
 	font-family: sans-serif 2000px;
 	display: inline;
+	color: turquoise;
+	background-color: navy;
+	margin: 500px;
 }
 
-
+.clearfix{
+	overflow: auto;
+}
 nav{
 	text-align: left;
 	float: left;
 	display: inline;
+	margin-top: 100px;
 }
 
 h1{
 	text-align: left;
 	float: left;
 	display: inline;
+	background-color: navy;
+	padding-top: 100px;
 }
 
 h2{
 	text-align: right;
 	float: right;
 	display: inline;
+	color: orange;
+	margin-top: 0px;
+	background-color: navy;
 }
 
+h2 a{
+	background-color: orange;
+	font-color: turquoise;
+
+}
+
+main{
+	float: left;
+	width: 75%;
+	height: 500px;
+}
+
+article{
+	display: inline;
+
+}
+
+aside{
+	float: right;
+	height: 200px;
+	width: 25%;
+}
+
+.clearfix{
+	overflow: auto;
+}
 footer{
 	text-align: left;
 	float: left;
