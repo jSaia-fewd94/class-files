@@ -10,6 +10,7 @@ JQUERY REVIEW INSTRUCTIONS
 
 	- Hint: if you're creating two HTML elements with IDENTICAL styles, use a CSS class to apply the styling
 
+
 2) Include jQuery via Google CDN:
 
 	- Use <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script> tag

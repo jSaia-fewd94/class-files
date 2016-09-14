@@ -1,0 +1,8 @@
+.box{
+	background-color: orange;
+	height: 200px;
+	width: 200px;
+	border: solid black;
+	font-size: 16px;
+	font: Times;
+}
