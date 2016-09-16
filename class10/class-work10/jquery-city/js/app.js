@@ -9,5 +9,5 @@ $('#third').click(function().attr('src', 'ajax.googleapis.com/ajax/libs/jquery/2
 
 $('#fourth').click(function().attr('src', 'ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js');
 
-$('#bigimage').click(function().attr('src', 'ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js');
 
+$('.thumb')
