@@ -10,17 +10,25 @@
 
 h1{
 	color: yellow;
-	font-family: ;
-	background-color: black;
-
 }
 
+.top-header{
+	height: 55px;
+	line-height: 55px;
+}
+
+#right-menu ul li{
+	float: right;
+	display: inline;
+	width: 100%;
+}
 
 
 header{
 	border-bottom: solid yellow 4px;
 	background-color: black;
 	padding-top: 10px;
+	height: 75px;
 	
 }
 
@@ -29,6 +37,7 @@ nav{
 	font-size: 22px;
 	text-decoration: none;
 	padding-top: 5px;	
+	padding-bottom: 50px;
 }
 
 
@@ -88,12 +97,30 @@ aside button{
 	width: 150px;
 	text-align: center;
 
-
 }
 
 div{
 	display: inline-block;
 	width: 30%;
+}
+
+h4{
+	font-weight: bold;
+
+}
+
+#box p{
+	width: 75%;
+	padding: 0 50px 0 0px;
+	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+	font-weight: none;
+	
+}
+
+#box button{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;*/
+	font-weight: bold;
 }
 
 footer{
