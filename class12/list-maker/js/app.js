@@ -19,3 +19,11 @@ $(document).ready(function () {
 
 	// 2. Write the appendItem function here
 })
+$('#clickme').click(function('appendItem'){
+	var 'newItem'= .val ('#item')
+
+});
+
+function appendItem(){
+
+}
