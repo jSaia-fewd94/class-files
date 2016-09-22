@@ -11,6 +11,17 @@
 // Legendary Bonus: Remove individual <li> elements when they are clicked
 
 $(document).ready(function () {
+	$('#clickme').click(function (){
+		var newItem = $('#item').val();
+		if (newItem.length === 0) {
+			alert('You must enter a value!')
+			}else{
+				appendItem(newItem);
+			}
+			$('item')
+				.focus()
+				.val('')
+	})
 
 	// 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
 	// 1A. This anonymous function should create a variable, newItem equal to the value of #item
@@ -19,11 +30,12 @@ $(document).ready(function () {
 
 	// 2. Write the appendItem function here
 })
-$('#clickme').click(function('appendItem'){
-	var 'newItem'= .val ('#item')
 
-});
-
-function appendItem(){
+function appendItem(item){
+	$('#list').append('<li>' + item + '</li>');
 
 }
+
+$(document).on('click', 'li', function(){
+	$(this).remove();
+})
