@@ -14,9 +14,12 @@
 // 7: Empty the input in #newEntry (clear it out)
 
 $(document).ready(function () {
+	var myTotal =0;
 	$('#entry').submit(function(event){
 		var myVal = parseFloat ($('#newEntry').val());
 		$('#entries').append("<tr><td></td><td>" + myVal + "</td></tr>");
+	myTotal = myTotal + myVal; 
+	$('#total').text('$' + myTotal)  	
 
 		event.preventDefault ();
 	});
