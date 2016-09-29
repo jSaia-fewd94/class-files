@@ -19,7 +19,9 @@ $(document).ready(function () {
 		var myVal = parseFloat ($('#newEntry').val());
 		$('#entries').append("<tr><td></td><td>" + myVal + "</td></tr>");
 	myTotal = myTotal + myVal; 
-	$('#total').text('$' + myTotal)  	
+	$('#total').text('$' + myTotal)  
+
+	$('#newEntry').val('');	
 
 		event.preventDefault ();
 	});
